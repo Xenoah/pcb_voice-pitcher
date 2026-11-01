@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "filename": "voice_pitcher.kicad_pro",
+    "version": 1
+  },
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.15,
+        "min_track_width": 0.15,
+        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.3,
+        "min_copper_edge_clearance": 0.3
+      },
+      "defaults": {
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1,
+        "copper_text_size_v": 1,
+        "copper_text_thickness": 0.15
+      }
+    }
+  },
+  "net_settings": {
+    "version": 4,
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.15,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_via_gap": 0.25
+      }
+    ]
+  }
+}

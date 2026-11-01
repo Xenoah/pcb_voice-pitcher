@@ -1,0 +1,34 @@
+name: CAD and DSP checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  firmware-and-dsp:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y gcc-arm-none-eabi libnewlib-arm-none-eabi python3-numpy
+      - run: bash tools/bootstrap.sh
+      - run: make test firmware
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firmware-and-dsp-results
+          path: |
+            build/firmware/voice_pitcher.*
+            build/checks/*.json
+  cad:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          sudo add-apt-repository -y ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install -y kicad inkscape
+      - run: make exports
+      - run: git diff --exit-code -- downloads/jlc_bom.csv downloads/jlc_cpl.csv downloads/bom_master.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cad-results
+          path: |
+            build/checks/*.json
+            downloads/voice_pitcher_gerbers.zip

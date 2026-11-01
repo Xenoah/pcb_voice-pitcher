@@ -1,0 +1,64 @@
+{
+  "status": "CAD_CHECKS_PASS_HARDWARE_UNTESTED",
+  "kicad": "9.0.2",
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "netlist_to_pcb_checked_pads": 377,
+  "outline_mm": [
+    98.0,
+    98.0
+  ],
+  "copper_layers": 4,
+  "assembly_side": "TOP",
+  "components": 107,
+  "assembly_counts": {
+    "SMT": 100,
+    "HAND": 3,
+    "MECHANICAL": 4
+  },
+  "sourcing_counts": {
+    "JLC_LISTED": 9,
+    "BASIC": 53,
+    "UNVERIFIED": 37,
+    "HAND": 3,
+    "LCSC_LISTED_JLC_UNCONFIRMED": 1,
+    "MECHANICAL": 4
+  },
+  "track_totals_not_impedance_verification": {
+    "USB_DP": {
+      "copper_length_mm": 54.898,
+      "vias": 2
+    },
+    "USB_DM": {
+      "copper_length_mm": 54.5612,
+      "vias": 2
+    },
+    "MCU_USB_DP": {
+      "copper_length_mm": 6.6056,
+      "vias": 0
+    },
+    "MCU_USB_DM": {
+      "copper_length_mm": 6.6885,
+      "vias": 0
+    },
+    "SAI_MCLK": {
+      "copper_length_mm": 7.3048,
+      "vias": 0
+    },
+    "I2S_MCLK": {
+      "copper_length_mm": 38.498,
+      "vias": 2
+    },
+    "SAI_BCLK": {
+      "copper_length_mm": 14.2801,
+      "vias": 2
+    },
+    "I2S_BCLK": {
+      "copper_length_mm": 45.975,
+      "vias": 0
+    }
+  },
+  "production_release": false,
+  "bench_validation": false
+}

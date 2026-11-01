@@ -1,0 +1,48 @@
+{
+  "scope": "Host synthetic tones only; not measured on STM32 or the analog hardware.",
+  "tolerance_cents": 15,
+  "tests": [
+    {
+      "mode": "12",
+      "input_hz": 440,
+      "target_hz": 880,
+      "measured_hz": 880.1618888992191,
+      "error_cents": 0.3184565886262768
+    },
+    {
+      "mode": "-12",
+      "input_hz": 440,
+      "target_hz": 220,
+      "measured_hz": 219.93019046443803,
+      "error_cents": -0.5494355629526021
+    },
+    {
+      "mode": "7",
+      "input_hz": 440,
+      "target_hz": 659.2551138257398,
+      "measured_hz": 659.3122271379602,
+      "error_cents": 0.14997567095897552
+    },
+    {
+      "mode": "-5",
+      "input_hz": 440,
+      "target_hz": 329.6275569128699,
+      "measured_hz": 329.59712346770976,
+      "error_cents": -0.15984661405179162
+    },
+    {
+      "mode": "tune",
+      "input_hz": 450,
+      "target_hz": 440,
+      "measured_hz": 439.8083611033732,
+      "error_cents": -0.7541910326853432
+    },
+    {
+      "mode": "tune",
+      "input_hz": 215,
+      "target_hz": 220,
+      "measured_hz": 219.94938401423371,
+      "error_cents": -0.39835545431500047
+    }
+  ]
+}

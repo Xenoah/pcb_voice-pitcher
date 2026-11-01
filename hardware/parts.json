@@ -1,0 +1,2139 @@
+[
+  {
+    "ref": "J1",
+    "value": "USB-C USB2 DEVICE",
+    "symbol": "Connector:USB_C_Receptacle_USB2.0_16P",
+    "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+    "pins": {
+      "A4": "VBUS",
+      "A9": "VBUS",
+      "B4": "VBUS",
+      "B9": "VBUS",
+      "A1": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "B12": "GND",
+      "S1": "GND",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "USB_DP",
+      "B6": "USB_DP",
+      "A7": "USB_DM",
+      "B7": "USB_DM"
+    },
+    "x": 133,
+    "y": 53.5,
+    "rotation": 180,
+    "page": "usb",
+    "mpn": "TYPE-C-31-M-12",
+    "lcsc": "C165948",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C165948"
+  },
+  {
+    "ref": "R1",
+    "value": "5.1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "x": 124,
+    "y": 58,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF5101T5E",
+    "lcsc": "C23186",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C23186"
+  },
+  {
+    "ref": "R2",
+    "value": "5.1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "x": 124,
+    "y": 61,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF5101T5E",
+    "lcsc": "C23186",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C23186"
+  },
+  {
+    "ref": "R3",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "CC1",
+      "2": "CC1_SENSE"
+    },
+    "x": 119,
+    "y": 58,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF1001T5E",
+    "lcsc": "C21190",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C21190"
+  },
+  {
+    "ref": "R4",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "CC2",
+      "2": "CC2_SENSE"
+    },
+    "x": 119,
+    "y": 61,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF1001T5E",
+    "lcsc": "C21190",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C21190"
+  },
+  {
+    "ref": "U3",
+    "value": "USBLC6-2SC6",
+    "symbol": "Power_Protection:USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "pins": {
+      "1": "USB_DM",
+      "6": "USB_DM",
+      "3": "USB_DP",
+      "4": "USB_DP",
+      "2": "GND",
+      "5": "VBUS"
+    },
+    "x": 133,
+    "y": 61,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "USBLC6-2SC6",
+    "lcsc": "C7519",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C7519"
+  },
+  {
+    "ref": "C1",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "VBUS",
+      "2": "GND"
+    },
+    "x": 138,
+    "y": 61,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "R5",
+    "value": "22",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "USB_DM",
+      "2": "MCU_USB_DM"
+    },
+    "x": 120,
+    "y": 100.8,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF220JT5E",
+    "lcsc": "C23345",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C23345"
+  },
+  {
+    "ref": "R6",
+    "value": "22",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "USB_DP",
+      "2": "MCU_USB_DP"
+    },
+    "x": 120,
+    "y": 98.5,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF220JT5E",
+    "lcsc": "C23345",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C23345"
+  },
+  {
+    "ref": "R7",
+    "value": "100k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "VBUS",
+      "2": "VBUS_SENSE"
+    },
+    "x": 128,
+    "y": 75,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25803"
+  },
+  {
+    "ref": "R8",
+    "value": "100k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "VBUS_SENSE",
+      "2": "GND"
+    },
+    "x": 132,
+    "y": 75,
+    "rotation": 0,
+    "page": "usb",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25803"
+  },
+  {
+    "ref": "F1",
+    "value": "500mA PTC",
+    "symbol": "Device:Polyfuse",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "pins": {
+      "1": "VBUS",
+      "2": "+5V_RAW"
+    },
+    "x": 138,
+    "y": 66,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "1206L050YR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "U7",
+    "value": "TPS22918DBVR",
+    "symbol": "VoicePitcher:TPS22918",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "pins": {
+      "1": "+5V_RAW",
+      "2": "GND",
+      "3": "+5V_RAW",
+      "4": "SLEW_CT",
+      "6": "+5V"
+    },
+    "x": 137,
+    "y": 71,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "TPS22918DBVR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C47",
+    "value": "1u",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+5V_RAW",
+      "2": "GND"
+    },
+    "x": 142,
+    "y": 70,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "GRM188R71C105KA12D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C48",
+    "value": "10n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "SLEW_CT",
+      "2": "GND"
+    },
+    "x": 132,
+    "y": 70,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "GRM188R71E103KA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "FB1",
+    "value": "120R@100MHz",
+    "symbol": "Device:FerriteBead",
+    "footprint": "Inductor_SMD:L_0805_2012Metric",
+    "pins": {
+      "1": "+5V",
+      "2": "+5VA"
+    },
+    "x": 91,
+    "y": 78,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "BLM21PG121SN1D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "U4",
+    "value": "LD1117S33TR",
+    "symbol": "Regulator_Linear:LD1117S33TR_SOT223",
+    "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "+5V"
+    },
+    "x": 132,
+    "y": 82,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "LD1117S33TR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C2",
+    "value": "10u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "x": 140,
+    "y": 77,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "UWT1C100MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C3",
+    "value": "10u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 132,
+    "y": 91,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "UWT1C100MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C4",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 126,
+    "y": 81,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C5",
+    "value": "10u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "+5VA",
+      "2": "GND"
+    },
+    "x": 85,
+    "y": 73,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "UWT1C100MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C6",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+5VA",
+      "2": "GND"
+    },
+    "x": 79,
+    "y": 78,
+    "rotation": 0,
+    "page": "power",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "U1",
+    "value": "STM32H743VIT6",
+    "symbol": "MCU_ST_STM32H7:STM32H743VITx",
+    "footprint": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+    "pins": {
+      "6": "+3V3",
+      "11": "+3V3",
+      "27": "+3V3",
+      "50": "+3V3",
+      "75": "+3V3",
+      "100": "+3V3",
+      "10": "GND",
+      "19": "GND",
+      "26": "GND",
+      "49": "GND",
+      "74": "GND",
+      "99": "GND",
+      "20": "+3V3A",
+      "21": "+3V3A",
+      "14": "NRST",
+      "94": "BOOT0",
+      "12": "HSE_8M",
+      "48": "VCAP1",
+      "73": "VCAP2",
+      "1": "SAI_MCLK",
+      "2": "SAI_ADC",
+      "3": "SAI_LRCK",
+      "4": "SAI_BCLK",
+      "5": "SAI_DAC",
+      "63": "CODEC_RESET",
+      "70": "MCU_USB_DM",
+      "71": "MCU_USB_DP",
+      "68": "VBUS_SENSE",
+      "15": "CC1_SENSE",
+      "16": "CC2_SENSE",
+      "72": "SWDIO",
+      "76": "SWCLK",
+      "89": "SWO",
+      "95": "I2C_SCL",
+      "96": "I2C_SDA",
+      "55": "KEY_MODE",
+      "56": "KEY_DOWN",
+      "57": "KEY_UP",
+      "58": "KEY_IO",
+      "46": "UART_TX",
+      "47": "UART_RX",
+      "34": "STATUS_LED"
+    },
+    "x": 107,
+    "y": 103,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "STM32H743VIT6",
+    "lcsc": "C114409",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C114409"
+  },
+  {
+    "ref": "FB2",
+    "value": "120R@100MHz",
+    "symbol": "Device:FerriteBead",
+    "footprint": "Inductor_SMD:L_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "+3V3A"
+    },
+    "x": 92,
+    "y": 108,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "BLM21PG121SN1D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C7",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 96,
+    "y": 96,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C8",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 96,
+    "y": 110,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C9",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 108,
+    "y": 114,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C10",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 118,
+    "y": 94,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C11",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 107,
+    "y": 92,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C12",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3A",
+      "2": "GND"
+    },
+    "x": 91,
+    "y": 111,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C13",
+    "value": "1u",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3A",
+      "2": "GND"
+    },
+    "x": 91,
+    "y": 114,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "GRM188R71C105KA12D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C14",
+    "value": "2.2u",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "VCAP1",
+      "2": "GND"
+    },
+    "x": 114,
+    "y": 114,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "GRM188R61C225KE15D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C15",
+    "value": "2.2u",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "VCAP2",
+      "2": "GND"
+    },
+    "x": 118,
+    "y": 97,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "GRM188R61C225KE15D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C16",
+    "value": "4.7u",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 109,
+    "y": 118,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "GRM188R61C475KE11D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "Y1",
+    "value": "8MHz 3V3 CMOS",
+    "symbol": "Oscillator:ASE-xxxMHz",
+    "footprint": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "OSC_8M",
+      "4": "+3V3"
+    },
+    "x": 91,
+    "y": 98,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "ASE-8.000MHZ-LC-T",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R9",
+    "value": "33",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "OSC_8M",
+      "2": "HSE_8M"
+    },
+    "x": 94,
+    "y": 101,
+    "rotation": 90,
+    "page": "mcu",
+    "mpn": "0603WAF330JT5E",
+    "lcsc": "C23140",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C23140"
+  },
+  {
+    "ref": "C17",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 87,
+    "y": 98,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "R10",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "NRST"
+    },
+    "x": 124,
+    "y": 116,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C18",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "NRST",
+      "2": "GND"
+    },
+    "x": 124,
+    "y": 119,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "R11",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "BOOT0",
+      "2": "GND"
+    },
+    "x": 130,
+    "y": 116,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "SW1",
+    "value": "RESET",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "pins": {
+      "1": "NRST",
+      "2": "GND"
+    },
+    "x": 122,
+    "y": 125,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "TL3342F160QG",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "SW2",
+    "value": "BOOT",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "pins": {
+      "1": "BOOT0",
+      "2": "+3V3"
+    },
+    "x": 133,
+    "y": 125,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "TL3342F160QG",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "J5",
+    "value": "SWD",
+    "symbol": "Connector_Generic:Conn_01x06",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "pins": {
+      "1": "+3V3",
+      "2": "SWDIO",
+      "3": "SWCLK",
+      "4": "GND",
+      "5": "NRST",
+      "6": "SWO"
+    },
+    "x": 142,
+    "y": 101,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "1x6 2.54mm header",
+    "lcsc": "",
+    "assembly": "HAND",
+    "sourcing_status": "HAND",
+    "source_url": ""
+  },
+  {
+    "ref": "J6",
+    "value": "UART 3V3",
+    "symbol": "Connector_Generic:Conn_01x03",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "pins": {
+      "1": "GND",
+      "2": "UART_TX",
+      "3": "UART_RX"
+    },
+    "x": 142,
+    "y": 122,
+    "rotation": 0,
+    "page": "mcu",
+    "mpn": "1x3 2.54mm header",
+    "lcsc": "",
+    "assembly": "HAND",
+    "sourcing_status": "HAND",
+    "source_url": ""
+  },
+  {
+    "ref": "U2",
+    "value": "PCM3060PWR",
+    "symbol": "Audio:PCM3060",
+    "footprint": "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm",
+    "pins": {
+      "1": "GND",
+      "2": "GND",
+      "3": "SAI_ADC",
+      "4": "I2S_LRCK",
+      "5": "I2S_BCLK",
+      "6": "I2S_MCLK",
+      "7": "+3V3",
+      "8": "GND",
+      "9": "I2S_MCLK",
+      "10": "I2S_BCLK",
+      "11": "I2S_LRCK",
+      "12": "I2S_DAC",
+      "15": "CODEC_RESET",
+      "16": "GND",
+      "18": "DAC_R",
+      "20": "DAC_L",
+      "21": "VCOM",
+      "22": "GND",
+      "23": "GND",
+      "24": "+5VA",
+      "25": "ADC_L",
+      "26": "ADC_R",
+      "27": "GND",
+      "28": "CODEC_MODE"
+    },
+    "x": 78,
+    "y": 103,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "PCM3060PWR",
+    "lcsc": "C2651841",
+    "assembly": "SMT",
+    "sourcing_status": "LCSC_LISTED_JLC_UNCONFIRMED",
+    "source_url": "https://www.lcsc.com/product-detail/C2651841.html"
+  },
+  {
+    "ref": "R12",
+    "value": "220k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "CODEC_MODE"
+    },
+    "x": 79,
+    "y": 94,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "0603WAF2203T5E",
+    "lcsc": "C22961",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C22961"
+  },
+  {
+    "ref": "R13",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "CODEC_RESET",
+      "2": "GND"
+    },
+    "x": 88,
+    "y": 112,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "R14",
+    "value": "33",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "SAI_MCLK",
+      "2": "I2S_MCLK"
+    },
+    "x": 97,
+    "y": 91,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "0603WAF330JT5E",
+    "lcsc": "C23140",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C23140"
+  },
+  {
+    "ref": "R15",
+    "value": "33",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "SAI_LRCK",
+      "2": "I2S_LRCK"
+    },
+    "x": 97,
+    "y": 87,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "0603WAF330JT5E",
+    "lcsc": "C23140",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C23140"
+  },
+  {
+    "ref": "R16",
+    "value": "33",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "SAI_BCLK",
+      "2": "I2S_BCLK"
+    },
+    "x": 101,
+    "y": 87,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "0603WAF330JT5E",
+    "lcsc": "C23140",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C23140"
+  },
+  {
+    "ref": "R17",
+    "value": "33",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "SAI_DAC",
+      "2": "I2S_DAC"
+    },
+    "x": 101,
+    "y": 91,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "0603WAF330JT5E",
+    "lcsc": "C23140",
+    "assembly": "SMT",
+    "sourcing_status": "JLC_LISTED",
+    "source_url": "https://jlcpcb.com/partdetail/C23140"
+  },
+  {
+    "ref": "C19",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 73,
+    "y": 104,
+    "rotation": 90,
+    "page": "codec",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C20",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+5VA",
+      "2": "GND"
+    },
+    "x": 83,
+    "y": 100,
+    "rotation": 90,
+    "page": "codec",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "C21",
+    "value": "10u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "VCOM",
+      "2": "GND"
+    },
+    "x": 88,
+    "y": 104,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "UWT1C100MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C22",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "VCOM",
+      "2": "GND"
+    },
+    "x": 85,
+    "y": 109,
+    "rotation": 0,
+    "page": "codec",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "J2",
+    "value": "3.5mm STEREO IN",
+    "symbol": "Connector_Audio:AudioJack3",
+    "footprint": "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal",
+    "pins": {
+      "S": "GND",
+      "T": "IN_L",
+      "R": "IN_R"
+    },
+    "x": 59,
+    "y": 89,
+    "rotation": 270,
+    "page": "analog",
+    "mpn": "SJ-3523-SMT-TR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "pad_map": {
+      "1": "S",
+      "2": "T",
+      "3": "R"
+    },
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "J3",
+    "value": "3.5mm STEREO OUT",
+    "symbol": "Connector_Audio:AudioJack3",
+    "footprint": "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal",
+    "pins": {
+      "S": "GND",
+      "T": "OUT_L",
+      "R": "OUT_R"
+    },
+    "x": 59,
+    "y": 116,
+    "rotation": 270,
+    "page": "analog",
+    "mpn": "SJ-3523-SMT-TR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "pad_map": {
+      "1": "S",
+      "2": "T",
+      "3": "R"
+    },
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "U5",
+    "value": "TLV9062IDR",
+    "symbol": "Amplifier_Operational:TLV9062",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "BUF_L",
+      "2": "BUF_L",
+      "3": "BIAS_L",
+      "4": "GND",
+      "5": "BIAS_R",
+      "6": "BUF_R",
+      "7": "BUF_R",
+      "8": "+5VA"
+    },
+    "x": 73,
+    "y": 89,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "TLV9062IDR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C23",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+5VA",
+      "2": "GND"
+    },
+    "x": 79,
+    "y": 89,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "R20",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "IN_L",
+      "2": "ATT_L"
+    },
+    "x": 64,
+    "y": 62,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "R21",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "ATT_L",
+      "2": "GND"
+    },
+    "x": 69,
+    "y": 62,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C24",
+    "value": "470p",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "ATT_L",
+      "2": "GND"
+    },
+    "x": 64,
+    "y": 66,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "GRM1885C1H471JA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C25",
+    "value": "4.7u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "BIAS_L",
+      "2": "ATT_L"
+    },
+    "x": 71,
+    "y": 67,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "UWT1C4R7MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "BIAS_L",
+      "2": "VCOM"
+    },
+    "x": 77,
+    "y": 62,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25803"
+  },
+  {
+    "ref": "R23",
+    "value": "100",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "BUF_L",
+      "2": "ADC_L"
+    },
+    "x": 70,
+    "y": 96,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1000T5E",
+    "lcsc": "C22775",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C22775"
+  },
+  {
+    "ref": "C26",
+    "value": "2.2n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_L",
+      "2": "GND"
+    },
+    "x": 70,
+    "y": 99,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "GRM1885C1H222JA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R25",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "IN_R",
+      "2": "ATT_R"
+    },
+    "x": 64,
+    "y": 72,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "R26",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "ATT_R",
+      "2": "GND"
+    },
+    "x": 69,
+    "y": 72,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C29",
+    "value": "470p",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "ATT_R",
+      "2": "GND"
+    },
+    "x": 64,
+    "y": 76,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "GRM1885C1H471JA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C30",
+    "value": "4.7u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "BIAS_R",
+      "2": "ATT_R"
+    },
+    "x": 72,
+    "y": 77,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "UWT1C4R7MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R27",
+    "value": "100k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "BIAS_R",
+      "2": "VCOM"
+    },
+    "x": 77,
+    "y": 72,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25803"
+  },
+  {
+    "ref": "R28",
+    "value": "100",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "BUF_R",
+      "2": "ADC_R"
+    },
+    "x": 70,
+    "y": 104,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1000T5E",
+    "lcsc": "C22775",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C22775"
+  },
+  {
+    "ref": "C31",
+    "value": "2.2n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_R",
+      "2": "GND"
+    },
+    "x": 70,
+    "y": 107,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "GRM1885C1H222JA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "U6",
+    "value": "TLV9062IDR",
+    "symbol": "Amplifier_Operational:TLV9062",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "OBUF_L",
+      "2": "OBUF_L",
+      "3": "LPF_L",
+      "4": "GND",
+      "5": "LPF_R",
+      "6": "OBUF_R",
+      "7": "OBUF_R",
+      "8": "+5VA"
+    },
+    "x": 75,
+    "y": 121,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "TLV9062IDR",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "C34",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+5VA",
+      "2": "GND"
+    },
+    "x": 81,
+    "y": 118,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "R30",
+    "value": "3.3k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "DAC_L",
+      "2": "LPF_L"
+    },
+    "x": 71,
+    "y": 112,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF3301T5E",
+    "lcsc": "C22978",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C22978"
+  },
+  {
+    "ref": "C35",
+    "value": "1n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "LPF_L",
+      "2": "GND"
+    },
+    "x": 71,
+    "y": 115,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "GRM1885C1H102JA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R31",
+    "value": "100",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "OBUF_L",
+      "2": "COUPLE_L"
+    },
+    "x": 65,
+    "y": 125,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1000T5E",
+    "lcsc": "C22775",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C22775"
+  },
+  {
+    "ref": "C36",
+    "value": "10u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "COUPLE_L",
+      "2": "OUT_L"
+    },
+    "x": 65,
+    "y": 130,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "UWT1C100MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R32",
+    "value": "100k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "OUT_L",
+      "2": "GND"
+    },
+    "x": 65,
+    "y": 135,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25803"
+  },
+  {
+    "ref": "R35",
+    "value": "3.3k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "DAC_R",
+      "2": "LPF_R"
+    },
+    "x": 83,
+    "y": 112,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF3301T5E",
+    "lcsc": "C22978",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C22978"
+  },
+  {
+    "ref": "C40",
+    "value": "1n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "LPF_R",
+      "2": "GND"
+    },
+    "x": 83,
+    "y": 115,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "GRM1885C1H102JA01D",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R36",
+    "value": "100",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "OBUF_R",
+      "2": "COUPLE_R"
+    },
+    "x": 74,
+    "y": 125,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1000T5E",
+    "lcsc": "C22775",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C22775"
+  },
+  {
+    "ref": "C41",
+    "value": "10u",
+    "symbol": "Device:C_Polarized",
+    "footprint": "Capacitor_SMD:CP_Elec_4x5.8",
+    "pins": {
+      "1": "COUPLE_R",
+      "2": "OUT_R"
+    },
+    "x": 74,
+    "y": 130,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "UWT1C100MCL1GB",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R37",
+    "value": "100k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "OUT_R",
+      "2": "GND"
+    },
+    "x": 74,
+    "y": 135,
+    "rotation": 0,
+    "page": "analog",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25803"
+  },
+  {
+    "ref": "J4",
+    "value": "OLED GND VCC SCL SDA",
+    "symbol": "Connector_Generic:Conn_01x04",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "I2C_SCL",
+      "4": "I2C_SDA"
+    },
+    "x": 91,
+    "y": 58,
+    "rotation": 90,
+    "page": "ui",
+    "mpn": "1x4 2.54mm OLED socket",
+    "lcsc": "",
+    "assembly": "HAND",
+    "sourcing_status": "HAND",
+    "source_url": ""
+  },
+  {
+    "ref": "R40",
+    "value": "4.7k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "I2C_SCL"
+    },
+    "x": 104,
+    "y": 58,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF4701T5E",
+    "lcsc": "C23162",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C23162"
+  },
+  {
+    "ref": "R41",
+    "value": "4.7k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "I2C_SDA"
+    },
+    "x": 108,
+    "y": 58,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF4701T5E",
+    "lcsc": "C23162",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C23162"
+  },
+  {
+    "ref": "C42",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "x": 104,
+    "y": 62,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "SW3",
+    "value": "MODE",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "pins": {
+      "1": "KEY_MODE",
+      "2": "GND"
+    },
+    "x": 83,
+    "y": 139,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "TL3342F160QG",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R42",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "KEY_MODE"
+    },
+    "x": 83,
+    "y": 133,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C43",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "KEY_MODE",
+      "2": "GND"
+    },
+    "x": 83,
+    "y": 130,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "SW4",
+    "value": "DOWN",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "pins": {
+      "1": "KEY_DOWN",
+      "2": "GND"
+    },
+    "x": 98,
+    "y": 139,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "TL3342F160QG",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R43",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "KEY_DOWN"
+    },
+    "x": 98,
+    "y": 133,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C44",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "KEY_DOWN",
+      "2": "GND"
+    },
+    "x": 98,
+    "y": 130,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "SW5",
+    "value": "UP",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "pins": {
+      "1": "KEY_UP",
+      "2": "GND"
+    },
+    "x": 113,
+    "y": 139,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "TL3342F160QG",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R44",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "KEY_UP"
+    },
+    "x": 113,
+    "y": 133,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C45",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "KEY_UP",
+      "2": "GND"
+    },
+    "x": 113,
+    "y": 130,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "SW6",
+    "value": "IO",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "pins": {
+      "1": "KEY_IO",
+      "2": "GND"
+    },
+    "x": 128,
+    "y": 139,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "TL3342F160QG",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R45",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "KEY_IO"
+    },
+    "x": 128,
+    "y": 133,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF1002T5E",
+    "lcsc": "C25804",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C25804"
+  },
+  {
+    "ref": "C46",
+    "value": "100n",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": "KEY_IO",
+      "2": "GND"
+    },
+    "x": 128,
+    "y": 130,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C14663"
+  },
+  {
+    "ref": "D1",
+    "value": "GREEN",
+    "symbol": "Device:LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "x": 119,
+    "y": 70,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "LTST-C190KGKT",
+    "lcsc": "",
+    "assembly": "SMT",
+    "sourcing_status": "UNVERIFIED",
+    "source_url": ""
+  },
+  {
+    "ref": "R46",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": "STATUS_LED",
+      "2": "LED_A"
+    },
+    "x": 119,
+    "y": 74,
+    "rotation": 0,
+    "page": "ui",
+    "mpn": "0603WAF1001T5E",
+    "lcsc": "C21190",
+    "assembly": "SMT",
+    "sourcing_status": "BASIC",
+    "source_url": "https://jlcpcb.com/partdetail/C21190"
+  },
+  {
+    "ref": "H1",
+    "value": "M3 NPTH",
+    "symbol": "Mechanical:MountingHole",
+    "footprint": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "x": 54,
+    "y": 54,
+    "rotation": 0,
+    "page": "mechanical",
+    "mpn": "M3 NPTH",
+    "lcsc": "",
+    "assembly": "MECHANICAL",
+    "sourcing_status": "MECHANICAL",
+    "source_url": ""
+  },
+  {
+    "ref": "H2",
+    "value": "M3 NPTH",
+    "symbol": "Mechanical:MountingHole",
+    "footprint": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "x": 144,
+    "y": 54,
+    "rotation": 0,
+    "page": "mechanical",
+    "mpn": "M3 NPTH",
+    "lcsc": "",
+    "assembly": "MECHANICAL",
+    "sourcing_status": "MECHANICAL",
+    "source_url": ""
+  },
+  {
+    "ref": "H3",
+    "value": "M3 NPTH",
+    "symbol": "Mechanical:MountingHole",
+    "footprint": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "x": 54,
+    "y": 144,
+    "rotation": 0,
+    "page": "mechanical",
+    "mpn": "M3 NPTH",
+    "lcsc": "",
+    "assembly": "MECHANICAL",
+    "sourcing_status": "MECHANICAL",
+    "source_url": ""
+  },
+  {
+    "ref": "H4",
+    "value": "M3 NPTH",
+    "symbol": "Mechanical:MountingHole",
+    "footprint": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "x": 144,
+    "y": 144,
+    "rotation": 0,
+    "page": "mechanical",
+    "mpn": "M3 NPTH",
+    "lcsc": "",
+    "assembly": "MECHANICAL",
+    "sourcing_status": "MECHANICAL",
+    "source_url": ""
+  }
+]

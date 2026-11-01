@@ -1,0 +1,11 @@
+{
+  "target": "STM32H743VIT6 Cortex-M7 hard-float",
+  "flash_address": "0x08000000",
+  "text_bytes": 83904,
+  "data_bytes": 1788,
+  "bss_bytes": 239288,
+  "bin_sha256": "f982ab87bec66729a5f90555bd657e277d505a7fe3701e47ec2c1f645b2b93c8",
+  "compile_and_link": "PASS",
+  "hardware_boot_test": "NOT_RUN",
+  "linker_notes": "newlib nosys stubs warn that filesystem I/O is not implemented; no filesystem or standard I/O service is provided"
+}

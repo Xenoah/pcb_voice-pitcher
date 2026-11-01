@@ -1,0 +1,6 @@
+Item,Quantity,Specification,Assembly
+OLED1,1,"SSD1306 128x64 I2C 0x3C; 3.3V; GND,VCC,SCL,SDA; verify module dimensions",HAND
+USB cable,1,USB-C data cable for host use; C-C for Type-C Rp standalone adapter,EXTERNAL
+Standalone supply,1,5V Type-C source advertising >=1.5A; no PD voltage negotiation,EXTERNAL
+6.35mm adapters,2,Optional stereo TRS 3.5mm to 6.35mm; mono TS requires appropriate channel wiring,EXTERNAL
+Standoffs,4,M3 nonconductive or insulated; check clearance,HAND

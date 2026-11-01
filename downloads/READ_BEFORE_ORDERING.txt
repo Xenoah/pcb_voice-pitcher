@@ -1,0 +1,8 @@
+VOICE PITCHER REV 0.1 — ENGINEERING PROTOTYPE
+CAD checks pass. Hardware has NOT been built or bench-tested.
+Read docs/manufacturing.md and docs/validation.md before ordering.
+37 SMT parts have unverified JLC sourcing; the codec has LCSC-only confirmation.
+CPL rotations require JLC assembly-preview review. All parts are TOP.
+USB impedance, power/thermal, audio quality, latency and USB compatibility remain unvalidated.
+This is a USB DEVICE and stereo LINE interface, not a USB host or microphone/headphone interface.
+Zero-loss/zero-latency pitch shifting is not physically achievable.

@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-01T04:45:57+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56",
+            "violations": []
+        },
+        {
+            "path": "/MCU/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56/4b8f3a47-e69d-5b26-a8be-af2bd7d9052b",
+            "violations": []
+        },
+        {
+            "path": "/POWER/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56/87d7ae6e-b095-5a87-9e08-2706aeb4c8a9",
+            "violations": []
+        },
+        {
+            "path": "/USB/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56/5f11a275-da2e-5666-8ee3-e9e2ee6a87c1",
+            "violations": []
+        },
+        {
+            "path": "/CODEC/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56/f9efd5db-3354-5195-984b-fbaff75df484",
+            "violations": []
+        },
+        {
+            "path": "/ANALOG/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56/890990aa-4965-5458-8a5c-50f6b929e26f",
+            "violations": []
+        },
+        {
+            "path": "/UI/",
+            "uuid_path": "/1b47a5ba-2786-5645-990d-1569bd7ddb56/0f30d156-df50-511a-97da-d777f30db80c",
+            "violations": []
+        }
+    ],
+    "source": "voice_pitcher.kicad_sch"
+}

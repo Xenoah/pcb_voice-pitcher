@@ -1,0 +1,10 @@
+# Preserve generated download bytes so SHA-256 checksums survive checkout.
+downloads/** -text -whitespace linguist-generated=true
+LICENSES/** -whitespace linguist-vendored=true
+hardware/VoicePitcher.pretty/** linguist-vendored=true
+hardware/symbols/** linguist-vendored=true
+*.zip binary
+*.pdf binary
+*.png binary
+*.bin binary
+*.elf binary

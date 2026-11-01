@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "VoicePitcher") (type "KiCad") (uri "${KIPRJMOD}/VoicePitcher.pretty") (options "") (descr "Vendored KiCad 9 footprints; CUI jack pad names mapped to S/T/R")))

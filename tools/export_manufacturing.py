@@ -32,6 +32,21 @@ def refsort(ref):return re.sub(r'\d+',lambda m:m.group().zfill(5),ref)
 run('kicad-cli','pcb','export','gerbers',board,'-o',str(FAB)+'/',
     '--layers','F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,F.Paste,Edge.Cuts',
     '--use-drill-file-origin','--subtract-soldermask')
+# KiCad 9.0.2 can use internal enum IDs in .gbrjob (L5/L7) while the
+# Gerber X2 headers correctly say L2/L3. Derive the job from those headers.
+jobpath=FAB/'voice_pitcher-job.gbrjob';job=json.loads(jobpath.read_text())
+for attr in job['FilesAttributes']:
+    text=(FAB/attr['Path']).read_text()
+    function=re.search(r'%TF\.FileFunction,([^*]+)\*%',text)
+    assert function,attr['Path']
+    attr['FileFunction']=function.group(1)
+copper=[a['FileFunction'] for a in job['FilesAttributes'] if a['FileFunction'].startswith('Copper,')]
+assert copper==['Copper,L1,Top','Copper,L2,Inr','Copper,L3,Inr','Copper,L4,Bot'],copper
+job['GeneralSpecs']['Size']={'X':report['outline_mm'][0],'Y':report['outline_mm'][1]}
+job['GeneralSpecs']['ProjectId']['Revision']='0.1-prototype'
+# Default dielectric thicknesses and finish are not a negotiated stackup.
+job.pop('MaterialStackup',None);job['GeneralSpecs'].pop('Finish',None)
+jobpath.write_text(json.dumps(job,indent=2)+'\n')
 run('kicad-cli','pcb','export','drill',board,'-o',str(FAB)+'/',
     '--drill-origin','plot','--excellon-separate-th','--generate-map','--map-format','pdf')
 run('kicad-cli','sch','export','pdf',ROOT/'hardware/voice_pitcher.kicad_sch',

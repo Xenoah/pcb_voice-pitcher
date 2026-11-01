@@ -12,10 +12,50 @@
 - [日本語説明書 PDF](downloads/voice_pitcher_manual_ja.pdf?raw=true) / [回路図 PDF](downloads/schematic.pdf?raw=true) / [表面実装図 PDF](downloads/assembly-top.pdf?raw=true)
 - [ファームウェア BIN](downloads/firmware/voice_pitcher.bin?raw=true) / [HEX](downloads/firmware/voice_pitcher.hex?raw=true) / [ELF](downloads/firmware/voice_pitcher.elf?raw=true)
 - [検証結果](downloads/reports/hardware.json) / [DSP周波数テスト](downloads/reports/dsp-spectral.json) / [SHA-256](downloads/SHA256SUMS.txt)
+- [スクリーンショット全18枚 ZIP](downloads/voice_pitcher_screenshots.zip?raw=true) / [画像付きプレリリース](https://github.com/Xenoah/pcb_voice-pitcher/releases/tag/v0.1.0-prototype)
 
 CSVはページ右上のDownload raw file、ZIPは上記リンクから保存できます。BOMの空欄LCSC番号は未確定部品です。注文前に [製造手順](docs/manufacturing.md) の照合が必要です。
 
-![基板表面の配線と部品配置](downloads/board-top.png)
+## スクリーンショット
+
+実際のKiCadデータとPDFから出力した設計画面です。実機写真ではありません。3Dモデル未提供のJ1（USB-C）、J2/J3（音声ジャック）、Y1（発振器）、および外付けOLEDは3D表示に含まれません。
+
+**3D斜視** — 98 × 98 mm、全ての部品を表面に実装する設計。
+
+![基板の3D斜視。CADレンダリング、未実機検証](downloads/screenshots/01-pcb-3d-angle.png)
+
+**表裏・4層の一覧** — 上段は3D表裏、中段は表裏配線、下段はGND / 3.3 V内層。裏面図は裏側から見た向きです。
+
+![基板の表裏、配線、GNDと3.3V内層の一覧](downloads/screenshots/00-board-overview.png)
+
+**回路図全7ページと説明書** — 全体構成、MCU、電源、USB、コーデック、アナログ、表示・操作回路。
+
+![回路図全7ページと日本語説明書の一覧](downloads/screenshots/00-schematic-overview.png)
+
+<details>
+<summary>個別の高解像度画像を表示</summary>
+
+|3D表面|3D裏面|
+|---|---|
+|[![3D表面](downloads/screenshots/02-pcb-3d-top.png)](downloads/screenshots/02-pcb-3d-top.png)|[![3D裏面](downloads/screenshots/03-pcb-3d-bottom.png)](downloads/screenshots/03-pcb-3d-bottom.png)|
+|表面配線|裏面配線|
+|[![表面配線](downloads/screenshots/04-pcb-top-routing.png)](downloads/screenshots/04-pcb-top-routing.png)|[![裏面配線](downloads/screenshots/05-pcb-bottom-routing.png)](downloads/screenshots/05-pcb-bottom-routing.png)|
+|L2 GND|L3 3.3 V|
+|[![GND内層](downloads/screenshots/06-pcb-inner-ground.png)](downloads/screenshots/06-pcb-inner-ground.png)|[![3.3V内層](downloads/screenshots/07-pcb-inner-3v3.png)](downloads/screenshots/07-pcb-inner-3v3.png)|
+|実装図|回路図：全体|
+|[![実装図](downloads/screenshots/08-assembly-top.png)](downloads/screenshots/08-assembly-top.png)|[![全体構成](downloads/screenshots/09-schematic-overview.png)](downloads/screenshots/09-schematic-overview.png)|
+|回路図：MCU|回路図：電源|
+|[![MCU](downloads/screenshots/10-schematic-mcu.png)](downloads/screenshots/10-schematic-mcu.png)|[![電源](downloads/screenshots/11-schematic-power.png)](downloads/screenshots/11-schematic-power.png)|
+|回路図：USB-C|回路図：コーデック|
+|[![USB-C](downloads/screenshots/12-schematic-usb.png)](downloads/screenshots/12-schematic-usb.png)|[![コーデック](downloads/screenshots/13-schematic-codec.png)](downloads/screenshots/13-schematic-codec.png)|
+|回路図：アナログ|回路図：OLED・スイッチ|
+|[![アナログ](downloads/screenshots/14-schematic-analog.png)](downloads/screenshots/14-schematic-analog.png)|[![OLED・スイッチ](downloads/screenshots/15-schematic-ui.png)](downloads/screenshots/15-schematic-ui.png)|
+|日本語説明書・先頭ページ|画像の生成元|
+|[![日本語説明書](downloads/screenshots/16-manual.png)](downloads/screenshots/16-manual.png)|[CADハッシュ・3Dモデル出典・画像一覧](downloads/screenshots/manifest.json)|
+
+</details>
+
+画像を再生成する場合は `python3 tools/render_gallery.py --fetch-models` を実行します。KiCad 9、Inkscape、poppler-utils、Python Pillow/reportlabが必要です。
 
 ## 設計内容
 

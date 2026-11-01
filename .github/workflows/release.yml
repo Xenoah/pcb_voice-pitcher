@@ -1,0 +1,62 @@
+name: Publish prototype release
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag to publish
+        required: true
+        type: string
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    env:
+      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref_name }}
+      - name: Verify committed downloads
+        run: |
+          set -euo pipefail
+          [[ "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.-]+)?$ ]]
+          test -f "docs/releases/$RELEASE_TAG.md"
+          cd downloads
+          sha256sum -c SHA256SUMS.txt
+          python3 - <<'PY'
+          import json, zipfile
+          from pathlib import Path
+          report=json.loads(Path('reports/hardware.json').read_text())
+          assert report['status']=='CAD_CHECKS_PASS_HARDWARE_UNTESTED'
+          for archive in Path('.').glob('*.zip'):
+              with zipfile.ZipFile(archive) as bundle:
+                  assert bundle.testzip() is None
+          assert len(list(Path('screenshots').glob('*.png')))==18
+          PY
+      - name: Publish images and prototype downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          notes="docs/releases/$RELEASE_TAG.md"
+          if gh release view "$RELEASE_TAG" --json isDraft > /tmp/voice-pitcher-release.json 2>/dev/null; then
+            python3 -c 'import json; assert json.load(open("/tmp/voice-pitcher-release.json"))["isDraft"], "Release already published; refusing to overwrite"'
+          else
+            gh release create "$RELEASE_TAG" --verify-tag --draft --prerelease \
+              --title "Voice Pitcher $RELEASE_TAG — CAD・製造データ・スクリーンショット" \
+              --notes-file "$notes"
+          fi
+          gh release upload "$RELEASE_TAG" --clobber \
+            downloads/voice_pitcher_rev0.1_prototype.zip \
+            downloads/voice_pitcher_gerbers.zip \
+            downloads/voice_pitcher_screenshots.zip \
+            downloads/voice_pitcher_manual_ja.pdf \
+            downloads/schematic.pdf downloads/assembly-top.pdf \
+            downloads/jlc_bom.csv downloads/jlc_cpl.csv downloads/bom_master.csv \
+            downloads/SHA256SUMS.txt downloads/firmware/* downloads/screenshots/*.png
+          gh release edit "$RELEASE_TAG" --notes-file "$notes" --draft=false --prerelease

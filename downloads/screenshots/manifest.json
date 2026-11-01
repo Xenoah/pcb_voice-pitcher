@@ -1,0 +1,35 @@
+{
+  "kind": "CAD/PDF renders, not assembled-hardware photographs",
+  "kicad": "9.0.2",
+  "board_sha256": "a00db22e5e7f1126587df67fe48a00d7b67db68aa5869b62c9057b4b2c28171f",
+  "schematic_pdf_sha256": "3ddafc323ba940e5d67ac470e62ca4c3bfb09a38566ae0a6bef41382faf13376",
+  "official_3d_model_source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/9.0.2/",
+  "missing_3d_models": [
+    "Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal.step",
+    "Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step",
+    "Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.step"
+  ],
+  "not_modeled": [
+    "External SSD1306 OLED module"
+  ],
+  "png_files": [
+    "00-board-overview.png",
+    "00-schematic-overview.png",
+    "01-pcb-3d-angle.png",
+    "02-pcb-3d-top.png",
+    "03-pcb-3d-bottom.png",
+    "04-pcb-top-routing.png",
+    "05-pcb-bottom-routing.png",
+    "06-pcb-inner-ground.png",
+    "07-pcb-inner-3v3.png",
+    "08-assembly-top.png",
+    "09-schematic-overview.png",
+    "10-schematic-mcu.png",
+    "11-schematic-power.png",
+    "12-schematic-usb.png",
+    "13-schematic-codec.png",
+    "14-schematic-analog.png",
+    "15-schematic-ui.png",
+    "16-manual.png"
+  ]
+}

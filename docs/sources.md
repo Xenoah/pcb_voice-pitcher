@@ -38,4 +38,6 @@ KiCad 9.0.2の標準シンボルとフットプリントから必要なものを
 
 改変点は、継承シンボルの解決、CUIジャックのパッド名を物理番号1/2/3からS/T/Rへ対応、PCM3060 DEMPの端子種別をハードウェアモードの入力へ変更です。TPS22918のシンボルはTIデータシートに基づき作成しました。ライブラリ例外により、これらを使った基板自体へCC-BY-SAを強制するものではありません。
 
+スクリーンショットの3D表示にはKiCad公式3Dライブラリの9.0.2タグを使用します。出典: https://gitlab.com/kicad/libraries/kicad-packages3D/-/tree/9.0.2 。提供されていないモデルは代替形状を作らず省略し、`downloads/screenshots/manifest.json` に記録しています。画像はCAD/PDFの描画で、実物の写真ではありません。
+
 配線はFreerouting 1.9.0（GPL-3.0）を使用。ツール本体は配布ZIPへ含めません。入出力DSN/SESはビルド中間データです。公式: https://github.com/freerouting/freerouting 。ホストDSP検証はGCC、numpy、AddressSanitizer/UndefinedBehaviorSanitizer、PDF作成はReportLabとInkscapeです。
